@@ -73,13 +73,13 @@
             "harnessArn": "arn:aws:bedrock-agentcore:us-west-2:168756729556:harness/CustomerSupport_OrderResearchAgent-pjEwKVjCun",
             "roleArn": "arn:aws:iam::168756729556:role/CustomerSupport_OrderResearchAgent",
             "status": "READY",
-            "harnessVersion": 1,
+            "harnessVersion": 2,
             "agentRuntimeArn": "arn:aws:bedrock-agentcore:us-west-2:168756729556:runtime/harness_CustomerSupport_OrderResearchAgent-8I5rt29qTD",
             "provisioner": "cloudformation"
           }
         },
         "stackName": "AgentCore-CustomerSupport-default",
-        "deployHash": "13ff3827c041ff0a"
+        "deployHash": "594bf1b06f9b5904"
       }
     }
   }

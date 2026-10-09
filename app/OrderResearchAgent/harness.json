@@ -27,6 +27,34 @@
           }
         }
       }
+    },
+    {
+      "type": "inline_function",
+      "name": "approve_exception",
+      "config": {
+        "inlineFunction": {
+          "description": "Request manager approval for a refund that exceeds the automated limit. Returns approved or denied with approver name.",
+          "inputSchema": {
+            "type": "object",
+            "properties": {
+              "order_id": {
+                "type": "string"
+              },
+              "amount": {
+                "type": "number"
+              },
+              "reason": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "order_id",
+              "amount",
+              "reason"
+            ]
+          }
+        }
+      }
     }
   ],
   "skills": [],
